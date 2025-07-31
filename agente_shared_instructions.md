@@ -9,13 +9,15 @@ Este sistema opera com 3 agentes especializados que trabalham de forma coordenad
 ## Estrutura de Arquivos (OBRIGATÓRIO)
 
 ### Pasta .project/ (Gerenciada pelo Idealizador) (OBRIGATÓRIO)
+SEMPRE verificar e seguir:
 ```
 .project/
-├── app.md              # Visão do produto e modelo de negócio
-├── requirements.md     # Requisitos funcionais e não-funcionais
-├── tasks.md           # Backlog de features estruturado
-├── architecture.md    # Arquitetura técnica e decisões
-└── database.sql       # Schema e políticas RLS
+├── app/app.md -> # Visão do produto e modelo de negócio
+├── app/instructions.md -> # Instruções de desenvolvimento
+├── app/requirements.md -> # Requisitos funcionais e não-funcionais
+├── app/tasks.md -> # Backlog de features estruturado
+├── app/architecture.md -> # Arquitetura técnica e decisões
+└── db/database.sql -> Schema e políticas RLS
 ```
 
 ## Protocolo de Coordenação (OBRIGATÓRIO)
